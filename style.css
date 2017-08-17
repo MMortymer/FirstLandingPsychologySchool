@@ -1,0 +1,544 @@
+@font-face{
+
+font-family: 'Proxima Nova';
+
+src: url('../fonts/Proxima Nova Regular');
+
+src: url('../fonts/Proxima Nova Regular.eot?iefix') format('eot'),
+
+url('../fonts/Proxima Nova Regular.woff') format('woff'),
+
+url('../fonts/Proxima Nova Regular.ttf') format('truetype'),
+
+url('../fonts/Proxima Nova Regular.svg#webfont') format('svg');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background-color: #f1f1f3;
+
+}
+.header{
+	position: relative;
+	background-image: url(img/hback.png);
+	height: 770px;
+	width: 1903px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.wrap{
+	max-width: 1024;
+}
+.menu{
+	position: fixed;
+	background-image: url(img/mback.png);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	width: 1700px;
+	height: 120px;
+	left: 50%;
+	margin-left: -840px;
+	z-index: 100;
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 120px;
+	margin-left: 290px;
+}
+.menu li{
+	display: inline-block;
+	margin-right: 21px;
+	padding-top: 14px;
+}
+.menu a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	line-height: 1.2;
+  text-align: center;
+}
+.header h1{
+	position: absolute;
+	left: 390px;
+	top: 190px;
+	margin: 0;
+	font-size: 60px;
+  font-family: "Proxima Nova";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  text-align: center;
+  text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.35);
+}
+.header span{
+	position: absolute;
+	left: 405px;
+	font-weight: normal;
+	font-size: 48px;
+}
+.mouse{
+	height: 120px;
+	width: 26px;
+	position: absolute;
+	left: 425px;
+	top: 510px;
+  background-image: url(img/mouse.png);
+  background-repeat: no-repeat;
+	background-position: center 0px;
+
+}
+.details a{
+	font-size: 18px;
+  font-family: "Proxima Nova";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-decoration: none;
+  position: absolute;
+	left: 390px;
+	top: 640px;
+}
+.logo{
+	position: absolute;
+	top: 100px;
+	left: 390px;
+	width: 310px;
+	height: 60px;
+	color: #fff;
+	background-image: url(img/logo.png);
+	background-repeat: no-repeat;
+	padding-left: 83px;
+	padding-top: 20px;
+	vertical-align: top;
+	font-size: 14px;
+  font-family: "Proxima Nova";
+  color: rgb(254, 254, 254);
+}
+.blog{
+	position: absolute;
+	top: 130px;
+	right: 705px;
+	font-size: 18px;
+  font-family: "Proxima Nova";
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  line-height: 1.2;
+}
+.button{
+	display: block;
+	box-sizing: border-box;
+	position: absolute;
+	right: 390px;
+	height: 61px;
+	width: 264px;
+	font-size: 24px;
+  font-family: "Proxima Nova";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1;
+  text-align: center;
+}
+.button-1{
+	padding-top: 5px;
+	top: 375px;
+	background-color: #43c8de;
+	border-bottom: 5px solid #55a8b6;
+}
+.button-2{
+	padding-top: 19px;
+	top: 482px;
+	background-color: #de9e33;
+	border-bottom: 5px solid #deb269;
+}
+.button-3{
+	padding-top: 19px;
+	top: 589px;
+	background-color: #b3ca2f;
+	border-bottom: 5px solid #92a046;
+}
+.kabinet{
+	padding-top: 10px;
+	padding-left: 30px;
+	top: 117px;
+	height: 41px;
+	font-size: 18px;
+  font-family: "Proxima Nova";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  font-weight: normal;
+	background-color: #cc6996;
+	border-bottom: 5px solid #b27e95;
+	background-image: url(img/login.png);
+	background-repeat: no-repeat;
+	background-position: 20px 11px;
+}
+.wrapper{
+	margin-top: 135px;
+	margin-left: 375px;
+	width: 1170px;
+}
+.block{
+	box-sizing: border-box;
+	background-color: rgb(255, 255, 255);
+  box-shadow: 0px 13px 50.73px 6.27px rgba(0, 0, 0, 0.13);
+  margin-bottom: 137px;
+  font-size: 24px;
+  font-family: "Proxima Nova";
+  line-height: 1.2;
+  text-align: left;
+  padding: 55px 15px;
+  position: relative;
+}
+.school .bird{
+	position: absolute;
+	top: -112px;
+	left: 3px;
+	width: 140px;
+	height: 157px;
+	background-image: url(img/bird.png);
+	background-repeat: no-repeat;
+}
+.school h1{
+	position: absolute;
+	padding-top: 34px;
+	height: 132px;
+	width: 624px;
+	left: 270px;
+	top: -116px;
+	font-size: 60px;
+  font-family: "Proxima Nova";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+	background-image: url(img/aboutschool.png);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+}
+.school p{
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+.school p:nth-child(2) {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.school p:last-child{
+	margin-bottom: 0;
+}
+.school .video{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 98px;
+	width: 945px;
+	height: 530px;
+	background-image: url(img/imgkids.png);
+}
+.programm{
+	height: 1261px;
+}
+.programm > h1{
+	position: absolute;
+	padding-top: 34px;
+	height: 132px;
+	width: 624px;
+	left: 270px;
+	top: -116px;
+	font-size: 60px;
+  font-family: "Proxima Nova";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+	background-image: url(img/programm.png);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+}
+.block .prog{
+	display: inline-block;
+	width: 360px;
+	height: 520px;
+	margin-right: 23px;
+	background-repeat: no-repeat;
+	background-position: center 15px;
+}
+.block .prog-6,
+.block .prog-3{
+	margin-right: 0px;
+}
+.block .prog h1{
+	font-size: 24px;
+  font-family: "Proxima Nova";
+  color: rgb(1, 1, 1);
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 285px;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.block .prog p{
+	margin-top: 0;
+	font-size: 22px;
+  font-family: "Proxima Nova";
+  color: #247987;
+  line-height: 1.2;
+  text-align: left;
+}
+.prog-1{
+	background-image: url(img/notebook.png);
+}
+.prog-2{
+	background-image: url(img/graduate.png);
+}
+.prog-3{
+	background-image: url(img/writing.png);
+}
+.prog-4{
+	background-image: url(img/chat.png);
+}
+.prog-5{
+	background-image: url(img/desktop.png);
+}
+.prog-6{
+	background-image: url(img/calculation.png);
+}
+.programm .flower{
+	position: absolute;
+	top: -60px;
+	left: 30px;
+	width: 199px;
+	height: 99px;
+	background-image: url(img/flower.png);
+	background-repeat: no-repeat;
+}
+
+.button-prog1{
+	padding-top: 19px;
+	bottom: 64px;
+	right: 210px;
+	background-color: #43c8de;
+	border-bottom: 5px solid #55a8b6;
+}
+.button-prog2{
+	padding-top: 19px;
+	bottom: 64px;
+	left: 210px;
+	background-color: #cc6996;
+	border-bottom: 5px solid #b27e95;
+}
+.studying > h1{
+	position: absolute;
+	padding-top: 36px;
+	height: 132px;
+	width: 852px;
+	left: 146px;
+	top: -116px;
+	font-size: 60px;
+  font-family: "Proxima Nova";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+	padding-left: 95px;
+	background-image: url(img/study.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.studying .study img{
+	width: 555px;
+	height: 449px;
+}
+.studying .study p{
+	width: 555px;
+	line-height: 1.16;
+	margin-top: 0;
+	margin-bottom: 35px;
+}
+.studying .study-1 p{
+	float: right;
+}
+.studying .study-1 p:nth-child(2){
+	margin-top: 15px;
+}
+.studying .study-1 img{
+	margin-top: 15px;
+	float: left;
+}
+.studying .text2{
+	margin-top: 30px;
+	float: left;
+}
+.studying .study-2 img{
+	float: right;
+}
+.studying .study-3{
+	clear: both;
+}
+.studying .study-3 img{
+	float: left;
+}
+.studying .study-3 p{
+	float: right;
+}
+.rasp{
+	clear: both;
+}
+.studying .study-3 p:nth-child(4){
+	margin-bottom: 0;
+}
+.studying .ship{
+	position: absolute;
+	top: -88px;
+	left: -25px;
+	width: 187px;
+	height: 136px;
+	background-image: url(img/ship.png);
+	background-repeat: no-repeat;
+}
+.teachers{
+	height: 1350px;
+}
+.teachers h1{
+	position: absolute;
+	padding-top: 34px;
+	height: 132px;
+	width: 624px;
+	left: 270px;
+	top: -116px;
+	font-size: 60px;
+  font-family: "Proxima Nova";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+	background-image: url(img/teachers.png);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+}
+.teachers .teacher{
+	width: 555px;
+	height: 365px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-right: 0px;
+	position: relative;
+}
+.teachers .teacher-1,
+.teachers .teacher-3,
+.teachers .teacher-5{
+	margin-right: 23px;
+}
+.teachers .teacher .photo{
+	margin: 0;
+	border-style: solid;
+  border-width: 3px;
+  border-color: rgb(67, 200, 222);
+  border-radius: 50%;
+  position: absolute;
+  top: 65px;
+}
+.teachers .teacher .info{
+	box-sizing: border-box;
+	width: 360px;
+	height: 365px;
+	margin-left: 195px;
+	padding-top: 50px;
+}
+.teachers .teacher .info .name p{
+	margin-bottom: 15px;
+}
+.teachers .teacher .info .social{
+	height: 30px;
+}
+.teachers .teacher .info .social-vk{
+	background-image: url(img/vk.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+.teachers .teacher .info .social a:first-child{
+	margin-right: 5px;
+}
+.teachers .teacher .info .social-fb{
+	background-image: url(img/fb.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+.teachers .teacher .info .bio{
+	font-size: 22px;
+  font-family: "Proxima Nova";
+  color: rgb(2, 100, 116);
+  line-height: 1.2;
+  text-align: left;
+}
+.teachers .teacher .info .bio p{
+	margin-bottom: 0;
+}
+.teachers .teacher .info .more a{
+	margin-top: 10px;
+	font-size: 24px;
+  font-family: "Proxima Nova";
+  color: rgb(67, 200, 222);
+  text-decoration: underline;
+  line-height: 1.2;
+}
+.teachers .teacher .info .more{
+  background-image: url(img/down-arrow.png);
+  background-repeat: no-repeat;
+  background-position: 140px 10px;
+  margin-top: 10px;
+}
+.teachers .teacher-3 .social,
+.teachers .teacher-6 .social{
+	visibility: hidden;
+}
+.teachers .button-teach{
+	background-color: #43c8de;
+	width: 360px;
+	padding-top: 19px;
+	bottom: 60px;
+	right: 404px;
+	border-bottom: 5px solid #54a5b3;
+	background-image: url(img/down-arrow-white.png);
+	background-repeat: no-repeat;
+	background-position: 310px 23px;
+}
+.teachers .panda{
+	position: absolute;
+	top: -57px;
+	left: 35px;
+	width: 187px;
+	height: 136px;
+	background-image: url(img/panda.png);
+	background-repeat: no-repeat;
+}
+
+.footer{
+	position: relative;
+	height: 187px;
+	width: 1903px;
+	background-color: #555555;
+}
+.footer .logo{
+	position: absolute;
+	top: 62px;
+	width: 310px;
+	height: 60px
+}
+.footer .kabinet{
+	top: 80px;
+}
+.footer .blog{
+	top: 90px;
+}
